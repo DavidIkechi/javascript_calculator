@@ -33,13 +33,13 @@ function start_computation() {
         firstNumber.trim() === "" ||
         secondNumber.trim() === ""
     ) {
-        // if the firstNumber is not actually a Number or not empty
+        // if the firstNumber is not actually a Number or empty
         if (isNaN(firstNumber) || firstNumber.trim() === "") {
             firstNumber = prompt(
                 "Opps! first Number must be a Number and not empty. Enter your First Number"
             );
         }
-        // if the second Number is not actually a Number or not empty
+        // if the second Number is not actually a Number or empty
         else if (isNaN(secondNumber) || secondNumber.trim() === "") {
             secondNumber = prompt(
                 "Opps! second Number must be a Number and not empty. Enter your Second Number"
